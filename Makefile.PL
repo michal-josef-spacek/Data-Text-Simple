@@ -20,7 +20,7 @@ readme_from 'Simple.pm';
 recursive_author_tests('xt');
 requires 'Mo' => 0;
 requires 'Mo::utils' => 0.09;
-requires 'Mo::utils::Language' => 0;
+requires 'Mo::utils::Language' => 0.04;
 resources 'bugtracker' => 'https://github.com/commons-vote/Data-Text-Simple/issues';
 resources 'homepage' => 'https://github.com/commons-vote/Data-Text-Simple';
 resources 'repository' => 'git://github.com/commons-vote/Data-Text-Simple';

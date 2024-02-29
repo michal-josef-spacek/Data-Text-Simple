@@ -119,10 +119,13 @@ Returns string.
 =head1 ERRORS
 
  new():
-         Language code '%s' isn't ISO 639-1 code.
-         Parameter 'id' must be a number.
-                 Value: %s
-         Parameter 'text' is required.
+         From Mo::utils:
+                 Parameter 'id' must be a number.
+                         Value: %s
+                 Parameter 'text' is required.
+         From Mo::utils::Language:
+                 Parameter 'lang' doesn't contain valid ISO 639-1 code.
+                         Value: %s
 
 =head1 EXAMPLE
 

@@ -116,8 +116,12 @@ Returns string.
 =head1 ERRORS
 
  new():
-         Parameter 'id' must be a number.
-                 Value: %s
+         From Mo::utils::check_number():
+                 Parameter 'id' must be a number.
+                         Value: %s
+
+         From Mo::utils::Language::check_language():
+                 Language code '%s' isn't ISO 639-1 code.
 
 =head1 EXAMPLE
 

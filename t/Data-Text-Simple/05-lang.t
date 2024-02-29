@@ -6,7 +6,9 @@ use Test::More 'tests' => 3;
 use Test::NoWarnings;
 
 # Test.
-my $obj = Data::Text::Simple->new;
+my $obj = Data::Text::Simple->new(
+	'text' => 'This is text.',
+);
 is($obj->lang, undef, 'Get language (undef - default).');
 
 # Test.

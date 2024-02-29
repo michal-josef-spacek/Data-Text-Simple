@@ -2,15 +2,11 @@ use strict;
 use warnings;
 
 use Data::Text::Simple;
-use Test::More 'tests' => 3;
+use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-my $obj = Data::Text::Simple->new;
-is($obj->text, undef, 'Get text (undef - default).');
-
-# Test.
-$obj = Data::Text::Simple->new(
+my $obj = Data::Text::Simple->new(
 	'lang' => 'en',
 	'text' => 'This is text.',
 );

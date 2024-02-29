@@ -33,7 +33,7 @@ METHODS
 
             Main text.
 
-            It's optional.
+            It's required.
 
     Returns instance of object.
 
@@ -60,12 +60,10 @@ METHODS
 
 ERRORS
      new():
-             From Mo::utils::check_number():
-                     Parameter 'id' must be a number.
-                             Value: %s
-
-             From Mo::utils::Language::check_language():
-                     Language code '%s' isn't ISO 639-1 code.
+             Language code '%s' isn't ISO 639-1 code.
+             Parameter 'id' must be a number.
+                     Value: %s
+             Parameter 'text' is required.
 
 EXAMPLE
      use strict;

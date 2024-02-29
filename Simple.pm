@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use Mo qw(build is);
-use Mo::utils 0.09 qw(check_number);
+use Mo::utils 0.09 qw(check_number check_required);
 use Mo::utils::Language qw(check_language);
 
 our $VERSION = 0.01;
@@ -29,6 +29,9 @@ sub BUILD {
 
 	# Check lang.
 	check_language($self, 'lang');
+
+	# Check text.
+	check_required($self, 'text');
 
 	return;
 }
@@ -83,7 +86,7 @@ It's optional.
 
 Main text.
 
-It's optional.
+It's required.
 
 =back
 
@@ -116,12 +119,10 @@ Returns string.
 =head1 ERRORS
 
  new():
-         From Mo::utils::check_number():
-                 Parameter 'id' must be a number.
-                         Value: %s
-
-         From Mo::utils::Language::check_language():
-                 Language code '%s' isn't ISO 639-1 code.
+         Language code '%s' isn't ISO 639-1 code.
+         Parameter 'id' must be a number.
+                 Value: %s
+         Parameter 'text' is required.
 
 =head1 EXAMPLE
 

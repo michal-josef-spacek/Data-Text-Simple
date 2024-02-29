@@ -18,6 +18,7 @@ meta-spec:
 name: Data-Text-Simple
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt

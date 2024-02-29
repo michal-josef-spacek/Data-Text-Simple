@@ -23,6 +23,7 @@ no_index:
     - xt
 requires:
   Mo: 0
+  Mo::utils: 0.09
   Mo::utils::Language: 0
   perl: 5.8.0
 resources:

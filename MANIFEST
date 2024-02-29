@@ -20,5 +20,7 @@ Simple.pm
 t/Data-Text-Simple/01-use.t
 t/Data-Text-Simple/02-version.t
 t/Data-Text-Simple/03-new.t
+t/Data-Text-Simple/04-lang.t
+t/Data-Text-Simple/05-text.t
 xt/Data-Text-Simple/01-pod_coverage.t
 xt/Data-Text-Simple/02-pod.t

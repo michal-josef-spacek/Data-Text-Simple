@@ -27,7 +27,7 @@ no_index:
 requires:
   Mo: 0
   Mo::utils: 0.09
-  Mo::utils::Language: 0.04
+  Mo::utils::Language: 0.05
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/commons-vote/Data-Text-Simple/issues

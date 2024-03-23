@@ -1,4 +1,5 @@
 0.02
+ - Rewrite to use of check_language_639_1().
 
 0.01 2024-02-29T18:29:05+01:00
  - First version.

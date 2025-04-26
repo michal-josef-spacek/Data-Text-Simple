@@ -8,7 +8,7 @@ use Mo::utils qw(check_required);
 use Mo::utils::Language 0.05 qw(check_language_639_1);
 use Mo::utils::Number qw(check_positive_natural);
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 has id => (
 	is => 'ro',
@@ -180,6 +180,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut

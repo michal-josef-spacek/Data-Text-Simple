@@ -26,8 +26,9 @@ no_index:
     - xt
 requires:
   Mo: 0
-  Mo::utils: 0.09
+  Mo::utils: 0
   Mo::utils::Language: 0.05
+  Mo::utils::Number: 0
   perl: 5.8.0
 resources:
   bugtracker: https://github.com/commons-vote/Data-Text-Simple/issues
